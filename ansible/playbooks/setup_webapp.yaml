@@ -1,5 +1,5 @@
 - name: My first play
-  hosts: web-app
+  hosts: webapp
   tasks:
    - name: Ping my hosts
      ansible.builtin.ping:
